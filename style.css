@@ -162,6 +162,10 @@ nav a:hover{
     position: relative;
 }
 
+.bio h1{
+    
+}
+
 .bio img{
     max-width: 200px;
     border-radius: 50%;
@@ -232,6 +236,10 @@ nav a:hover{
     
 }
 
+.boxes h3 {
+    text-shadow: var(--grid-shadow)
+}
+
 .box{
     min-height: 200px;
     min-width: 1fr;
@@ -242,19 +250,24 @@ nav a:hover{
     color: white;
 }
 
-/* .box-a{
-    grid-area: box-a;
+.box-a{
+    background-image: url(https://source.unsplash.com/random/604x600);
+    background-size: cover;
+    
 }
 
 .box-b{
-    grid-area:box-b;
+    background-image: url(https://source.unsplash.com/random/603x600);
+    background-size: cover;
 }
 .box-c{
-    grid-area: box-c;
+    background-image: url(https://source.unsplash.com/random/602x600);
+    background-size: cover;
 }
 .box-d {
-    grid-area: box-d;
-} */
+    background-image: url(https://source.unsplash.com/random/601x600);
+    background-size: cover;
+}
 
 
 footer{
